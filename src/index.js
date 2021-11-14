@@ -116,7 +116,7 @@ function getNextPalindromeDate(date) {
         return [count, nextDate];
       }
     }
-    nextDate = getNextDsate(nextDate);
+    nextDate = getNextDate(nextDate);
   }
 }
 
