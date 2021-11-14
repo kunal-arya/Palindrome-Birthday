@@ -116,12 +116,12 @@ function getNextPalindromeDate(date) {
         return [count, nextDate];
       }
     }
-    nextDate = getNextDate(nextDate);
+    nextDate = getNextDsate(nextDate);
   }
 }
 
 function getPreviousDate(date) {
-  var day = date.day + 1;
+  var day = date.day - 1;
   var month = date.month;
   var year = date.year;
 
